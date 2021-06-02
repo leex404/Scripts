@@ -2,7 +2,7 @@
 elpass.js
 
 [rewrite_local]
-^https:\/\/api\.elpass\.app\/device\/init url script-response-body elpass.js
+^https:\/\/api\.elpass\.app\/device\/init url script-response-body https://raw.githubusercontent.com/leex404/Scripts/master/elpass.js
 [mitm]
 hostname=api.elpass.app
 */
